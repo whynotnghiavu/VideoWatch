@@ -12,14 +12,21 @@ def ButtonClick(chuc_nang):
 
 
 def Router(chuc_nang):
-    print("🐍 File: view/ButtonClick.py | Line: 91 | undefined ~ chuc_nang", chuc_nang)
-    global root_dir
-    # if chuc_nang == "":
-    #     MyLog.error(chuc_nang)
-    #     MyLog.error(UseCase.error)
-    #     messagebox.showerror("Thông báo", UseCase.error)
+    if chuc_nang == "":
+        MyLog.error(chuc_nang)
+        MyLog.error(UseCase.error)
+        messagebox.showerror("Thông báo", UseCase.error)
 
-    # # NOTE: Chỉnh chức năng trong vùng này
+    
+    
+    
+    
+    # NOTE: Chỉnh chức năng trong vùng này
+
+
+
+
+
 
     # elif chuc_nang == UseCase.KiemTraAmThanh:
     #     KiemTraAmThanh()
@@ -115,11 +122,25 @@ def Router(chuc_nang):
     # elif chuc_nang == UseCase.XoaFileSub:
     #     XoaFileSub(root_dir)
 
-    # # ! Chỉ chỉnh các chức năng trong vùng này
 
-    # elif chuc_nang == UseCase.ThoatChuongTrinh:
-    #     exit()
-    # else:
-    #     MyLog.error(chuc_nang)
-    #     MyLog.error(UseCase.error)
-    #     messagebox.showerror("Thông báo", UseCase.error)
+
+
+
+
+
+
+
+
+    # ! Chỉ chỉnh các chức năng trong vùng này
+
+
+
+
+
+
+    elif chuc_nang == UseCase.ThoatChuongTrinh:
+        exit()
+    else:
+        MyLog.error(chuc_nang)
+        MyLog.error(UseCase.error)
+        messagebox.showerror("Thông báo", UseCase.error)
