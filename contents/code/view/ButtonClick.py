@@ -83,7 +83,7 @@ from modules.MyLog import MyLog
 # from modules.XoaFileSub import XoaFileSub
 
 
-def ButtonClick(chuc_nang, var_shutdown):
+def ButtonClick(chuc_nang):
     MyLog.title(f"Bắt đầu chức năng: {chuc_nang}")
     Router(chuc_nang)
     MyLog.title(f"Kết thúc chức năng: {chuc_nang}")
