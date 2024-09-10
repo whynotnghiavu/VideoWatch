@@ -5,6 +5,11 @@ from view.UseCase import UseCase
 from modules.MyLog import MyLog
 
 
+
+
+from modules.XoaManHinh import XoaManHinh
+
+
 def ButtonClick(chuc_nang):
     MyLog.title(f"Bắt đầu chức năng: {chuc_nang}")
     Router(chuc_nang)
@@ -26,13 +31,10 @@ def Router(chuc_nang):
 
 
 
+ 
 
-
-    # elif chuc_nang == UseCase.KiemTraAmThanh:
-    #     KiemTraAmThanh()
-
-    # elif chuc_nang == UseCase.XoaManHinh:
-    #     XoaManHinh()
+    elif chuc_nang == UseCase.XoaManHinh:
+        XoaManHinh()
 
     # elif chuc_nang == UseCase.ChonThuMuc:
     #     root_dir = ChonThuMuc()
