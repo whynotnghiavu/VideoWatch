@@ -1,13 +1,3 @@
-# if __name__ == "__main__":
-#     print(123)
-
-
-
-
-
-
-
-
 from modules.MyLog import MyLog
 from view.app import app
 
