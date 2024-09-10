@@ -16,7 +16,6 @@ def app():
     gui.geometry(f"{400}x{screen_height}+{x_pos}+{y_pos}")
 
     gui.configure(background="#282a36")
- 
 
     # Thêm các nút chức năng
     for chuc_nang, theme in Button.button_themes.items():

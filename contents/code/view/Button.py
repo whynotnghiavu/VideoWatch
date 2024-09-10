@@ -4,7 +4,7 @@ from view.THEMES import THEMES
 
 class Button():
     button_themes = {
-        UseCase.XoaManHinh: THEMES.DOC_LAP, 
+        UseCase.XoaManHinh: THEMES.DOC_LAP,
 
 
 

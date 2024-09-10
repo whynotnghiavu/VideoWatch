@@ -1,62 +1,8 @@
 from tkinter import messagebox
 
 
-
-
-
-
 from view.UseCase import UseCase
 from modules.MyLog import MyLog
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 def ButtonClick(chuc_nang):
@@ -65,10 +11,8 @@ def ButtonClick(chuc_nang):
     MyLog.title(f"Kết thúc chức năng: {chuc_nang}")
 
 
-
-
 def Router(chuc_nang):
-    print("🐍 File: view/ButtonClick.py | Line: 91 | undefined ~ chuc_nang",chuc_nang)
+    print("🐍 File: view/ButtonClick.py | Line: 91 | undefined ~ chuc_nang", chuc_nang)
     global root_dir
     # if chuc_nang == "":
     #     MyLog.error(chuc_nang)
