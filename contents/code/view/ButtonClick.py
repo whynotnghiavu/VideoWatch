@@ -25,15 +25,15 @@ def Router(chuc_nang):
     elif chuc_nang == UseCase.XoaManHinh:
         XoaManHinh()
 
-    # ChonThuMuc = "Chọn thư mục"
+    # ChonThuMuc     
 
-    # MoVideo = "Mở Video"
-    # MoGhiChu = "Mở ghi chú"
+    # MoVideo     
+    # MoGhiChu     
 
-    # XemVideoTruoc = "Xem Video trước"
-    # XemVideoSau = "Xem Video sau"
+    # XemVideoTruoc     
+    # XemVideoSau     
 
-    # MoTatCaGhiChu = "Mở tất cả ghi chú"
+    # MoTatCaGhiChu     
 
     # ! Chỉ chỉnh các chức năng trong vùng này
 
