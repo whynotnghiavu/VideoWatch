@@ -11,76 +11,52 @@ from modules.MyLog import MyLog
 
 
 
-# from modules.ShutdownComputer import ShutdownComputer
 
 
-# from modules.KiemTraAmThanh import KiemTraAmThanh
 
 
-# from modules.XoaManHinh import XoaManHinh
 
 
-# from modules.ChonThuMuc import ChonThuMuc
 
 
-# from modules.GhiThongTin import GhiThongTin
 
 
-# from modules.LuuCauTrucThuMuc import LuuCauTrucThuMuc
 
 
-# from modules.SaoChepThuMuc import SaoChepThuMuc
 
 
-# from modules.XoaFileKhongDung import XoaFileKhongDung
 
 
-# from modules.DoiTenFolderCon import DoiTenFolderCon
 
 
-# from modules.DoiTenFileCon import DoiTenFileCon
 
 
-# from modules.KiemTraTenGiongNhau import KiemTraTenGiongNhau
 
 
-# from modules.TaoFileSubRieng import TaoFileSubRieng
 
 
-# from modules.HopNhatCauSub import HopNhatCauSub
 
 
-# from modules.HopNhatTatCaFileSub import HopNhatTatCaFileSub
 
 
-# from modules.DichTiengViet import DichTiengViet
 
 
-# from modules.XuLyFileKetQuaDich import XuLyFileKetQuaDich
 
 
-# from modules.TachFileSub import TachFileSub
 
 
-# from modules.ChuyenAmThanh import ChuyenAmThanh
 
 
-# from modules.ThemAmThanh import ThemAmThanh
 
 
-# from modules.HopAmThanh import HopAmThanh
 
 
-# from modules.GhepAmThanh import GhepAmThanh
 
 
-# from modules.DonDep import DonDep
 
 
-# from modules.DoiTenFileSub import DoiTenFileSub
 
 
-# from modules.XoaFileSub import XoaFileSub
 
 
 def ButtonClick(chuc_nang):
