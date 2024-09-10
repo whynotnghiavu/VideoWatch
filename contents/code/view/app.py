@@ -7,13 +7,7 @@ import tkinter as tk
 
 
 def app():
-    print("app")
-
-
-
-
-    
-    # gui = tk.Tk()
+    gui = tk.Tk()
     # # Đặt vị trí ở bên phải màn hình
     # screen_width = gui.winfo_screenwidth()
     # screen_height = gui.winfo_screenheight()
@@ -48,6 +42,4 @@ def app():
     #     )
     #     button.pack()
 
-    # # Tự động hỏi thư mục
-    # gui.bind('<Return>', ButtonClick(UseCase.ChonThuMuc, var_shutdown))
-    # gui.mainloop()
+    gui.mainloop()

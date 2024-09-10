@@ -6,6 +6,9 @@
     },
     {
       "path": "contents"
+    },
+    {
+      "path": "contents/code"
     }
   ],
   "settings": {}
