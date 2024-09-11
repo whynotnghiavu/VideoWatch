@@ -14,5 +14,5 @@ def FileCurrentReader():
     with open(os.path.join(root_dir, CONST.CURRENT_FILE), "r", encoding="utf-8") as current_file:
         current_index = current_file.read()
 
-    MyLog.info(f"FileCurrentRead: current_index\nFileCurrentRead: {current_index}")
+    MyLog.info(f"FileCurrentReader: current_index\nFileCurrentReader: {current_index}")
     return int(current_index)

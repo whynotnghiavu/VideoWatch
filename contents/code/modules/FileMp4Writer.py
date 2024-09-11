@@ -17,4 +17,4 @@ def FileMp4Writer():
         for mp4_file in mp4_files:
             all_file_mp4.write(f"{mp4_file}\n")
 
-    MyLog.info(f"GhiThongTinFileMp4: Ghi tất cả các file {CONST.MP4}\nGhiThongTinFileMp4: {os.path.join(root_dir, CONST.ALL_FILE_MP4)}")
+    MyLog.info(f"FileMp4Writer: Ghi tất cả các file {CONST.MP4}\nFileMp4Writer: {os.path.join(root_dir, CONST.ALL_FILE_MP4)}")

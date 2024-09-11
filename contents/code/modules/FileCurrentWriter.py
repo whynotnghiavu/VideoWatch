@@ -11,7 +11,7 @@ from modules.FileRootDirReader import FileRootDirReader
 def FileCurrentWriter(current_index):
     root_dir = FileRootDirReader()
 
-    MyLog.info(f"FileCurrentWrite: current_index\nFileCurrentWrite: {current_index}")
+    MyLog.info(f"FileCurrentWriter: current_index\nFileCurrentWriter: {current_index}")
 
     with open(os.path.join(root_dir, CONST.CURRENT_FILE), "w", encoding="utf-8") as current_file:
         current_file.write(f"{current_index}")

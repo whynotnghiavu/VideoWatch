@@ -25,5 +25,5 @@ def FileMp4Reader(index):
 
     video = mp4_files[index]
 
-    MyLog.info(f"GetVideo: video\nGetVideo: {video}")
+    MyLog.info(f"FileMp4Reader: video\nFileMp4Reader: {video}")
     return video

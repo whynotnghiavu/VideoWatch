@@ -1,6 +1,4 @@
  
-<!-- \code\modules\CheckFileCurrent.py -->
-<!-- \code\modules\ChonThuMuc.py -->
 <!-- \code\modules\CreateFolderVideoWatch.py -->
 <!-- \code\modules\FileCurrentReader.py -->
 <!-- \code\modules\FileCurrentWriter.py -->
