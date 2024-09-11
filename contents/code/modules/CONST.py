@@ -1,27 +1,14 @@
 class CONST:
-    MP4 = ".mp4"
-
-    VTT = ".vtt"
+    MP4 = r".mp4"
     SRT = ".srt"
 
-    SAVE_FOLDER = "_SAVE"
-    SAVE_FILE = ".nghia.save"
+    NOTE = r".note.nghia.md"
 
-    NEW_FOLDER = "_VVN"
+    DATA_FOLDER = r"data"
+    ROOT_DIR_FILE = r"data\root_dir.nghia.md"
 
-    ENGLISH_VVN_NGHIA = "_english.vvn.nghia"
-    MERGE_VVN_NGHIA = "_merge.vvn.nghia"
-
-    BACKUP_FOLDER = "backup"
-    INFOR_FILE = r"backup\infor.txt"
-    MERGED_FILE = r"backup\merged.srt"
-    MERGED_VIETNAM_FILE = r"backup\merged.vi.srt"
-
-    VN1_VVN_NGHIA = "_vn1.vvn.nghia"
-    VN2_VVN_NGHIA = "_vn2.vvn.nghia"
-    VN3_VVN_NGHIA = "_vn3.vvn.nghia.srt"
-
-    WAV = ".wav"
-
-    MP4_VN1_NGHIA = "_vn1.vvn.nghia.mp4"
-    MP4_VN2_NGHIA = "_vn2.vvn.nghia.mp4"
+    VIDEO_WATCH = r"VideoWatch"
+    ALL_FILE_MP4 = r"VideoWatch\all_file_mp4.nghia.md"
+    CURRENT_FILE = r"VideoWatch\current.nghia.md"
+    ALL_FILE_NOTES = r"VideoWatch\all_file_notes.nghia.md"
+    ALL_FILE_SUBS = r"VideoWatch\all_file_sub.nghia.md"
