@@ -6,6 +6,7 @@ from modules.MyLog import MyLog
 from modules.MyExecute import MyExecute
 from modules.GetCurrentVideo import GetCurrentVideo
 from modules.OpenNote import OpenNote
+from modules.VideoSpeed import VideoSpeed
 
 
 def OpenVideo(current_video=""):
@@ -17,3 +18,5 @@ def OpenVideo(current_video=""):
     OpenNote(current_video)
 
     MyExecute(f" start {current_video}")
+
+    VideoSpeed()

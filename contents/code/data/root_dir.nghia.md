@@ -1,1 +1,1 @@
-C:/Users/vvn20206205/Downloads/Video/contents/1API/2/PluralsightDesigningAPIsforMicroservices20246_VVN
+C:/Users/vvn20206205/Downloads/Nghia/Git/whynotnghiavu/nghia-work-internship/contents/documents/video/2024_09_16/FastAPI_1/UdemyBuildDeploySecureAPIwithPythonFASTAPIJWTSQLAlchemy20224_VVN
