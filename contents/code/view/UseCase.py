@@ -2,6 +2,7 @@ class UseCase():
     XoaManHinh = "Xóa màn hình"
 
     ChonThuMuc = "Chọn thư mục"
+    MoThuMuc = "Mở thư mục"
     GhiThongTin = "Ghi thông tin"
 
     MoVideo = "Mở Video"

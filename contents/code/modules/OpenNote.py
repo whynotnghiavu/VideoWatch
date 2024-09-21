@@ -22,5 +22,5 @@ def OpenNote(mp4_file_path=""):
         with open(note_file_path, 'w', encoding="utf-8") as file:
             file.write(f"<!--{RemoveRootDirPath(note_file_path)}-->\n\n\n\n")
 
-    MyExecute(f" code")
+    # MyExecute(f" code")
     MyExecute(f" code {note_file_path}")

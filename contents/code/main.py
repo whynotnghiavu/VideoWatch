@@ -7,3 +7,17 @@ if __name__ == "__main__":
     MyLog.title("Bắt đầu chương trình")
     CreateFolderData()
     app()
+# # Kiến thức cần học
+
+
+# Học thư viện FastAPI
+# Học thư viện SQLAlchemy
+# Học thư viện Hash
+# Học thư viện jwt
+# Học thư viện pydantic
+# Học thư viện datetime
+# Học thư viện log
+
+# Học thư viện  Alembic
+# Học thư viện   Postman
+# Học thư viện    Docker

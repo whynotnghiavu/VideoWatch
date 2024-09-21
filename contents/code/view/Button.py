@@ -7,6 +7,7 @@ class Button():
         UseCase.XoaManHinh: THEMES.DRACULA,
 
         UseCase.ChonThuMuc: THEMES.DRACULA,
+        UseCase.MoThuMuc: THEMES.DRACULA,
         UseCase.GhiThongTin: THEMES.DRACULA,
 
         UseCase.MoVideo: THEMES.DARK_BLUE,

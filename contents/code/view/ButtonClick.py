@@ -9,7 +9,9 @@ from modules.XoaManHinh import XoaManHinh
 
 
 from modules.ChonThuMuc import ChonThuMuc
+from modules.MoThuMuc import MoThuMuc
 from modules.GhiThongTin import GhiThongTin
+
 from modules.OpenVideo import OpenVideo
 from modules.OpenNote import OpenNote
 from modules.OpenVideoBack import OpenVideoBack
@@ -38,6 +40,9 @@ def Router(chuc_nang):
     # NOTE: Chỉnh chức năng trong vùng này
     elif chuc_nang == UseCase.ChonThuMuc:
         ChonThuMuc()
+        ThoatChuongTrinh()
+    elif chuc_nang == UseCase.MoThuMuc:
+        MoThuMuc()
         ThoatChuongTrinh()
 
     elif chuc_nang == UseCase.GhiThongTin:
