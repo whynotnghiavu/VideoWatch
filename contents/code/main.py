@@ -19,5 +19,6 @@ if __name__ == "__main__":
 # Học thư viện log
 
 # Học thư viện  Alembic
-# Học thư viện   Postman
-# Học thư viện    Docker
+# Học   Postman
+# Học    Docker
+# Học    Git

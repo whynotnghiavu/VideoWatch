@@ -15,8 +15,8 @@ def app():
     # NOTE: Kích thước cửa sổ (150)
     x_pos = screen_width - 150
     y_pos = 0
-    # gui.geometry(f"{150}x{screen_height}+{x_pos}+{y_pos}")
-    gui.geometry(f"{150}x{277}+{x_pos}+{y_pos}")
+    gui.geometry(f"{150}x{screen_height}+{x_pos}+{y_pos}")
+    # gui.geometry(f"{150}x{277}+{x_pos}+{y_pos}")
 
     # Tạo màu nền cửa sổ
     gui.configure(background="#282a36")
