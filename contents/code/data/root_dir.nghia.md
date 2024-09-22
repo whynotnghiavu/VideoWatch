@@ -1,1 +1,1 @@
-C:/Users/vvn20206205/Downloads/Nghia/Git/whynotnghiavu/nghia-work-internship/contents/documents/video/2024_09_16/FastAPI_1/UdemyBuildDeploySecureAPIwithPythonFASTAPIJWTSQLAlchemy20224_VVN
+C:/Users/vvn20206205/Downloads/Nghia/Git/whynotnghiavu/nghia-work-internship/contents/documents/video/2024_09_22/Auth/UdemyTheCompleteFastAPICourseWithOAuthJWTAuthentication20219_VVN
